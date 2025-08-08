@@ -1,4 +1,4 @@
-import { renderHook, act } from '@testing-library/react-hooks';
+import { renderHook, act } from '@testing-library/react';
 import useCounter from '../src/hooks/features/homepage/useCounter';
 
 describe('useCounter', () => {
@@ -32,4 +32,4 @@ describe('useCounter', () => {
     });
     expect(result.current.count).toBe(3);
   });
-}
+})
